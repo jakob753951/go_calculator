@@ -5,7 +5,7 @@ use crate::player::Player;
 
 #[derive(PartialEq)]
 #[derive(Debug)]
-struct Game {
+pub struct Game {
     pub board: String,
     pub black: Player,
     pub white: Player,
